@@ -47,9 +47,9 @@ public class FDebugger : MonoBehaviour
         }
     }
 
-    public void inspect(string float_name, float value, float lower = 0.0f, float upper = 1.0f)
+    public void inspect(string float_name, float value, float lowerBound = 0.0f, float upperBound = 1.0f)
     {
-        dfloat f = new dfloat(value, lower, upper);
+        dfloat f = new dfloat(value, lowerBound, upperBound);
         floatDict[float_name] = f;
     }
 }
