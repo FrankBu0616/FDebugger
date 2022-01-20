@@ -34,4 +34,4 @@ Example:
 
 # Credit
 
-Idea from David Goedicke.
+Idea from [David Goedicke](https://github.com/DavidGoedicke).
